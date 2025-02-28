@@ -1,0 +1,35 @@
+Create a website code for Blogger with the following specifications for my site "Sheikh AI for Legal Consultations and Services":
+
+General Instructions:
+1. The chat interface, hosting, webhooks, data security, and user registration will all be handled via Replit, leveraging its multi-service capabilities.
+2. Payment integration should support Mada, Apple Pay, Tabby, and Tamara in Saudi Arabia.
+3. I will manage payment data and API keys (for AI models and integrations) through an admin dashboard. The chat and integration tools should be easy to configure in the dashboard, allowing me to connect multiple AI models and payment methods.
+4. The chat interface and admin dashboard should be fully right-to-left (RTL) Arabic-compliant, with seamless mixed Arabic-English text support, ensuring no formatting issues, and all text editable via the dashboard in Arabic.
+
+Website Structure on Blogger:
+- **Homepage:**
+  - Top Navigation Bar: Display the site logo, and menu items: Home, About Sheikh AI, Privacy Policy, Contact. Connect to Blogger’s dashboard (Pages - Layout - Design - Customize).
+  - Main Content: Below the bar, show 3 icons: "Urgent Consultation for Individuals" (right) and "Subscriptions for Companies & Professionals" (beside it), each with bullet-point descriptions of the service. Format adjustable via Blogger’s dashboard.
+  - Footer: Show the logo on the right, site name "Sheikh AI for Legal Consultations and Services" in the center, and icons: Trusted, Recognized, Mada, Apple Pay, Tabby, Tamara. Connect to Blogger’s dashboard for customization.
+
+- **Individual Services Page (Urgent Consultation for Individuals):**
+  - Clicking "Urgent Consultation for Individuals" opens the chat page with the following chat interface features:
+    a. The chat appears on the page, but the input area is locked with payment icons (Mada, Tabby, Tamara, Apple Pay) below it.
+    b. Clicking a payment icon opens a simple popup for payment without requiring an email, with the input area dimmed, showing a lock icon and text: "Pay now and consult the smartest source for legal issues" (editable via the dashboard).
+    c. After payment, the popup closes, credits (number of characters, configurable via dashboard) are added, the lock disappears, and the input area activates. The top corner shows a character count that decreases with typing, turning red at 500 characters remaining.
+    d. When credits run out, the input area dims again, showing the lock and text: "Recharge your credits to continue, or for another consultation" (editable via dashboard).
+
+- **Subscriptions for Companies & Professionals Page:**
+  - Clicking "Subscriptions for Companies & Professionals" opens a page with 3 subscription plans:
+    1. **Law Firms Subscription:**
+       - Pricing: Professional Package (Monthly/Yearly): $299-$799 monthly, $2,999-$7,999 yearly.
+       - Features: Large monthly character credits (2M-10M, per sub-plan), legal document uploads (contracts, judgments) for analysis, premium technical support, detailed usage reports.
+    2. **Judges & Academics Subscription:**
+       - Pricing: Advanced Package (Monthly/Yearly): $99-$299 monthly, $999-$2,999 yearly.
+       - Features: Medium monthly character credits (500K-2M, per sub-plan), limited legal document uploads, standard support, usage reports.
+    3. **Students & Hobbyists Subscription:**
+       - Pricing: Basic Package (Monthly/Yearly): $19-$49 monthly, $199-$499 yearly.
+       - Features: Limited monthly character credits (100K-500K, per sub-plan), no document uploads, basic email support, limited reports.
+  - Each subscription offers a 3-day free trial without credit card requirement, annual discounts to encourage long-term commitment, and gradual price increases with added features. The dashboard provides full control, with separate API fields for each subscription (main or sub-plans) to link multiple AI models and payment methods.
+
+Provide HTML/JavaScript code for Blogger compliant with its Template HTML Editor standards, and a secure Replit-hosted backend with an Arabic RTL admin dashboard for managing payments, API keys, and subscriptions. Ensure all text is Arabic, supports mixed Arabic-English, and is editable via the dashboard.
